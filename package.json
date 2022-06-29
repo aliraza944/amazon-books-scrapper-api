@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aliraza944/amazon-books-scrapper-api/issues"
   },
-  "homepage": "https://github.com/aliraza944/amazon-books-scrapper-api#readme"
+  "homepage": "https://github.com/aliraza944/amazon-books-scrapper-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
