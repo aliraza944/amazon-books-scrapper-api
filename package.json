@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A project to scrapp books from amazon website, select favourites form scraped data, save them to database and display them on your site.\r ## Project Scope\r - Use webscrapping via the cheerio.js \r - Scrapp the amazon book store page\r - only an admin can see the scrapped data \r - build api routes for admin auth for dashboard\r - Selected books from the scrapped data will saved to the database\r - Main website will display the data from our api routes",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/aliraza944/amazon-books-scrapper-api.git"
   },
-  "author": "",
+  "author": "aliraza944",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aliraza944/amazon-books-scrapper-api/issues"
